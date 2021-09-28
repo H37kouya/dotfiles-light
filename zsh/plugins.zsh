@@ -24,3 +24,11 @@ zinit ice wait'2' lucid atload"zicompinit; zicdreplay" blockf for \
 
 # color
 zinit light chrissicool/zsh-256color
+
+# exa lsに色をつける
+zinit ice as"program" from"gh-r" mv"exa* -> exa"
+zinit light ogham/exa
+
+# batコマンドの追加 catにシンタックスハイライトをする
+zinit ice as"program" from"gh-r" mv"bat* -> bat" pick"bat/bat"
+zinit light sharkdp/bat
