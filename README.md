@@ -9,3 +9,11 @@ $ cd ~/dotfiles
 
 $ make deploy
 ```
+
+## Setting git
+
+```shell
+$ git config --local user.name <name>
+
+$ git config --local user.email <email>
+```
