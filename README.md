@@ -1,5 +1,10 @@
 # dotfiles light
 
+Features1: No nerd font required.
+Features2: path isn't included.
+
+My main dotfiles is [H37kouya/dotfiles](https://github.com/H37kouya/dotfiles).
+
 ## Installation
 
 ```shell
@@ -8,6 +13,8 @@ $ git clone https://github.com/H37kouya/dotfiles-light.git ~/dotfiles
 $ cd ~/dotfiles
 
 $ make deploy
+
+$ source ~/.zshrc
 ```
 
 ## Setting git
