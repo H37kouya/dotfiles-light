@@ -17,6 +17,14 @@ $ make deploy
 $ source ~/.zshrc
 ```
 
+## Update
+
+```shell
+# zinit 自身の更新とプラグインの更新
+$ zinit-update
+```
+
+
 ## Setting git
 
 ```shell
