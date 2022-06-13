@@ -10,11 +10,11 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-history-substring-search
 
 # Fast Syntax Highlighting
-zinit light zdharma/fast-syntax-highlighting
+zinit light zdharma-continuum/fast-syntax-highlighting
 
 # Ctrl+r でコマンド履歴を検索
 zinit ice wait'2' lucid
-zinit light zdharma/history-search-multi-word
+zinit light zdharma-continuum/history-search-multi-word
 
 # 移動強化系プラグイン
 ENHANCD_COMPLETION_BEHAVIOR=list

@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  ubuntu:
+    build:
+      context: .
+      dockerfile: ./infra/docker/ubuntu/Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: .
+        target: /root/dotfiles
