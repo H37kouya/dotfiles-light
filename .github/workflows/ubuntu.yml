@@ -7,7 +7,7 @@ on:
     - cron: "0 22 * * *"
 
 jobs:
-  label:
+  ubuntu:
     runs-on: ubuntu-latest
 
     steps:
