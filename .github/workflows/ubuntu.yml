@@ -1,0 +1,20 @@
+name: Ubuntu
+
+on:
+  pull_request:
+  schedule:
+    # 7:00 (JST) に処理を実行する。
+    - cron: "0 22 * * *"
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: docker init
+        run: |
+          docker compose up -d --build
+      - name: In ubuntu
+        run: |
+          docker compose exec ubuntu zsh -c "make deploy && source ~/.zshrc"
